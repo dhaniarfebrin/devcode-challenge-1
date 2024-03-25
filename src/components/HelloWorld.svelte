@@ -1,9 +1,9 @@
 <script>
-	import devcodeLogo from '$lib/assets/devcode-logo.png';
+	import devcodeLogo from '$lib/assets/devcode-logo.png?enhanced';
 </script>
 
 <div class="hello">
-	<img data-cy="devcode-logo" src={devcodeLogo} alt="devcode logo" />
+	<enhanced:img data-cy="devcode-logo" src={devcodeLogo} alt="devcode logo" />
 	<div data-cy="devcode-title">
 		<h1>I'm ready for the next challenge!</h1>
 	</div>
